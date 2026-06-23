@@ -32,9 +32,6 @@ def add_expense():
     }
 
     expenses.append(expense)
-
-    # --- Resolved Conflict 1 ---
-    # Kept BOTH the JSON saving (HEAD) and the UI table update (Incoming)
     save_expenses()
     expense_table.insert("", tk.END, values=(date, category, amount, notes))
 
@@ -50,12 +47,13 @@ def add_expense():
     notes_entry.delete(0, tk.END)
 
 
+# Load data into memory on startup
 load_expenses()
 
 # --- Main Window Setup ---
 root = tk.Tk()
 root.title("Expense Entry")
-root.geometry("500x450")  # Updated to accommodate the new table
+root.geometry("500x450")
 root.config(padx=20, pady=20)
 
 # --- Form Fields ---
@@ -81,8 +79,7 @@ notes_entry.grid(row=3, column=1, pady=5)
 add_button = tk.Button(root, text="Add Expense", command=add_expense, width=15)
 add_button.grid(row=4, column=0, columnspan=2, pady=20)
 
-# --- Resolved Conflict 2 ---
-# Integrated the Treeview table UI from the incoming branch
+# --- Table Setup ---
 columns = ("date", "category", "amount", "notes")
 expense_table = ttk.Treeview(root, columns=columns, show="headings", height=8)
 expense_table.heading("date", text="Date")
@@ -97,6 +94,22 @@ expense_table.column("notes", width=170, anchor="w")
 
 expense_table.grid(row=5, column=0, columnspan=2, pady=10, sticky="nsew")
 root.grid_columnconfigure(1, weight=1)
+
+
+# --- NEW: Populate Table on Startup ---
+def populate_table():
+    """Loops through the loaded expenses list and inserts them into the UI table."""
+    for expense in expenses:
+        expense_table.insert("", tk.END, values=(
+            expense.get("date", ""),
+            expense.get("category", ""),
+            expense.get("amount", ""),
+            expense.get("notes", "")
+        ))
+
+
+# Call the function to fill the table right before running the app
+populate_table()
 
 # Run the application
 root.mainloop()
