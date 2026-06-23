@@ -30,10 +30,69 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4296226818313524" />
+      <entry key="MS500" value="3.390367265389997" />
+      <entry key="S2" value="7.3517711190811825" />
+      <entry key="S5" value="10.057112230634642" />
+      <entry key="S10" value="11.376705661446312" />
+      <entry key="S30" value="12.584973594294292" />
+      <entry key="S60" value="14.472356563364023" />
+      <entry key="M2" value="18.872950255337752" />
+      <entry key="M5" value="25.64847568073024" />
+      <entry key="M10" value="29.299490235579146" />
+      <entry key="M15" value="30.736117446315546" />
+      <entry key="M30" value="32.299175285101114" />
+      <entry key="H1" value="33.13161922624548" />
+      <entry key="H2" value="33.56122048177352" />
+      <entry key="H4" value="33.77945059832291" />
+      <entry key="D1" value="33.96307964493258" />
+      <entry key="W1" value="33.99472167934407" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3408481690194616" />
+      <entry key="MS500" value="3.342600520968499" />
+      <entry key="S2" value="7.308695907190988" />
+      <entry key="S5" value="10.029758555638516" />
+      <entry key="S10" value="11.360522941863138" />
+      <entry key="S30" value="12.578827740398491" />
+      <entry key="S60" value="14.468820574482862" />
+      <entry key="M2" value="18.87070577478531" />
+      <entry key="M5" value="25.64730053383817" />
+      <entry key="M10" value="29.29882974395624" />
+      <entry key="M15" value="30.735658144333183" />
+      <entry key="M30" value="32.29893535376873" />
+      <entry key="H1" value="33.13149653118906" />
+      <entry key="H2" value="33.561158431004515" />
+      <entry key="H4" value="33.77941939445283" />
+      <entry key="D1" value="33.9630744192678" />
+      <entry key="W1" value="33.994720932204764" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3F76Gi9XrOAsyBkmeMTHtUkMtR9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +108,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "wahab",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
