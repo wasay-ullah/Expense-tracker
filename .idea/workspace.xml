@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="762725c2-8c09-4fb0-9b10-878a54e4b2b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="485" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +32,7 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+<<<<<<< HEAD
       <entry key="MS100" value="1.4296226818313524" />
       <entry key="MS500" value="3.390367265389997" />
       <entry key="S2" value="7.3517711190811825" />
@@ -49,11 +50,31 @@
       <entry key="H4" value="33.77945059832291" />
       <entry key="D1" value="33.96307964493258" />
       <entry key="W1" value="33.99472167934407" />
+=======
+      <entry key="MS100" value="1.43271077211907" />
+      <entry key="MS500" value="3.303598239353499" />
+      <entry key="S2" value="5.468626861049868" />
+      <entry key="S5" value="9.153990994707305" />
+      <entry key="S10" value="12.309309455196585" />
+      <entry key="S30" value="15.698478009632181" />
+      <entry key="S60" value="16.80086445403308" />
+      <entry key="M2" value="18.273609180469478" />
+      <entry key="M5" value="29.544423087063663" />
+      <entry key="M10" value="53.017396137252426" />
+      <entry key="M15" value="78.72111566403807" />
+      <entry key="M30" value="143.70386891017537" />
+      <entry key="H1" value="212.38684818990527" />
+      <entry key="H2" value="263.8065828131938" />
+      <entry key="H4" value="295.4812112073097" />
+      <entry key="D1" value="325.5452463764784" />
+      <entry key="W1" value="331.06842476057074" />
+>>>>>>> wasay
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
+<<<<<<< HEAD
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
@@ -87,6 +108,41 @@
       <entry key="H4" value="33.77941939445283" />
       <entry key="D1" value="33.9630744192678" />
       <entry key="W1" value="33.994720932204764" />
+=======
+      <entry key="S5" value="4.07492026900865E-209" />
+      <entry key="S10" value="6.383510216964206E-105" />
+      <entry key="S30" value="1.8550396038230452E-35" />
+      <entry key="S60" value="4.3070170696469775E-18" />
+      <entry key="M2" value="2.075335411360528E-9" />
+      <entry key="M5" value="3.363839907505392E-4" />
+      <entry key="M10" value="0.01834077399540547" />
+      <entry key="M15" value="0.06954700619007619" />
+      <entry key="M30" value="0.2637176637809396" />
+      <entry key="H1" value="0.513534481589053" />
+      <entry key="H2" value="0.7166132022151522" />
+      <entry key="H4" value="0.846530095280225" />
+      <entry key="D1" value="0.9726137397966137" />
+      <entry key="W1" value="0.9960409642654326" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3729679120140748" />
+      <entry key="MS500" value="3.272913950500998" />
+      <entry key="S2" value="5.452781174519882" />
+      <entry key="S5" value="9.130575813255625" />
+      <entry key="S10" value="12.281762616615804" />
+      <entry key="S30" value="15.680380034986559" />
+      <entry key="S60" value="16.79002750362131" />
+      <entry key="M2" value="18.267609477936592" />
+      <entry key="M5" value="29.541901449867932" />
+      <entry key="M10" value="53.03376608834958" />
+      <entry key="M15" value="78.78877370849203" />
+      <entry key="M30" value="143.96573482348322" />
+      <entry key="H1" value="212.89891649000214" />
+      <entry key="H2" value="264.5222498393499" />
+      <entry key="H4" value="296.32720096267303" />
+      <entry key="D1" value="326.5177592655902" />
+      <entry key="W1" value="332.0644510321964" />
+>>>>>>> wasay
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,10 +161,16 @@
     "Python.main_window.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "wahab",
+=======
+    "git-widget-placeholder": "wasay",
+>>>>>>> wasay
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -165,7 +227,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781413666572</updated>
-      <workItem from="1781413667477" duration="472000" />
+      <workItem from="1781413667477" duration="2126000" />
+      <workItem from="1782104357678" duration="21000" />
     </task>
     <servers />
   </component>
@@ -185,6 +248,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1781413815998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/lib/python3.12/site-packages" />
-    <SUITE FILE_PATH="coverage/PythonProject$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1781413882486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1781414146674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
